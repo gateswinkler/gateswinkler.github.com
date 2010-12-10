@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Gates Winkler</title>
+</head>
+
+<body>
+<font size = 7><strong>Gates Winkler</strong></font></p>
+<font size = 6>UCSB MAT 201B Projects</font></p>
+<font size = 5><p><strong>Set Project:</strong></p></font>
+<p>The Set project involved two parts.  The first part was to create a solver that could detect all the sets in a group of cards given.  The second part was to create a graphical interface to play a game of Set</p>
+<p>The Set solver used a brute force method to check that each possible group of cards is either a set or not a set.  Nested loops were used to determine equality or inequality.  It begins with the first second and third cards selecter, and moves the third card down all possible cards.  Then the second card is moved down and the process repeats.  A class called EqorDIFF is called from the loops to determine if the three cards can be used as a set.  To improve on the absolute brute force method, the code was optimized sot that fewer checks were needed to determine if any three cards formed a set.</p>
+<p>The Set game was made in processing and dislays a random selection of cards made in MS Paint.  OPENGL picking is used to allow the player to select cards.  After three cards are selected, the game will determine if the three form a set using the EQorDIFF method.  The player is then told if the cards are a set or not a set.</p>
+<img src = "set_screenshot.jpg">
+<p>Because the Set game interface was just made in processing, it should be able to be run on any computer with Processing.  </p>
+
+<p>DOWNLOADS:</p>
+<p>Set solver:<a href="https://github.com/gateswinkler/201B-Processing-Sketches-GatesWinkler/tree/master/set_project">https://github.com/gateswinkler/201B-Processing-Sketches-GatesWinkler/tree/master/set_project</a></p>
+<p>Set game:<a href="https://github.com/gateswinkler/201B-Processing-Sketches-GatesWinkler/tree/master/set_game">https://github.com/gateswinkler/201B-Processing-Sketches-GatesWinkler/tree/master/set_game</a></p>
+
+<p></p>
+<p><font size = 2><a href = "index.html">HOME</a></font></p>
+
+<p>&nbsp;</p>
+
+</body>
+</html>
